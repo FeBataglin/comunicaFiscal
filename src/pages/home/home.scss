@@ -1,0 +1,84 @@
+
+.icon-title {
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.subtitle {
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.login {
+    margin-top: 40px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    background-color: #0c9abe;
+}
+
+.login:active, .login:visited {
+    margin-top: 40px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    background-color: #097B98;
+}
+
+.register {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    border: solid 1px #0c9abe;
+    background-color: white;
+    color: #0c9abe;
+}
+
+.register:active, .register:visited, .register:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    border: solid 1px #097B98;
+    background-color: white;
+    color: #097B98;
+}
+
+.rememberUser {
+    margin-top: 10px;
+}
+
+.footer {
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.thf-icon-user, .thf-icon-lock {
+    position: relative;
+    top: 51.5px;
+    left: 18px;
+    color: #0c9abe;
+
+}
+
+ion-item {
+    background:transparent !important;
+}
+
+.user, .password {
+    padding-left: 20px;
+}
+
+ion-label {
+    color: #097B98;
+}
+
+a {
+    color: #097B98;  
+}
+
+.item-input-has-focus .label-md[stacked],
+.input-has-focus .label-md[stacked],
+.item-input-has-focus .label-md[floating],
+.input-has-focus .label-md[floating]
+{
+color: #097B98 !important;
+}

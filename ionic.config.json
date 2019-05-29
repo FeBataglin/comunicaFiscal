@@ -1,0 +1,8 @@
+{
+  "name": "comunicaFiscal",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "dd7825b9"
+}

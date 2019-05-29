@@ -1,0 +1,45 @@
+<ion-header>
+</ion-header>
+
+<ion-content padding>
+    
+    <ion-grid>
+        <ion-row class="title" justify-content-center align-items-center style="height: 100%">
+          <span class="subtitle">Bem Vindo ao</span>
+          <span class="subtitle">Comunica Fiscal</span>
+        </ion-row>
+    </ion-grid>
+    <ion-grid>
+        <span class="thf-icon thf-icon thf-icon-user"></span>
+        <ion-item class="thf-sm-12">
+            <ion-label stacked>Usuário</ion-label>
+            <ion-input class="user" placeholder="Insira seu e-mail" type="text" name="user" value=""></ion-input>
+        </ion-item>
+        <span class="thf-icon thf-icon thf-icon thf-icon-lock"></span>
+        <ion-item class="thf-sm-12">
+            <ion-label stacked>Senha</ion-label>
+            <ion-input class="password" placeholder="Insira sua senha" type="password" name="password" value=""></ion-input>
+        </ion-item>
+        
+        <ion-item no-lines class="rememberUser">
+            <ion-label>Lembrar usuário</ion-label>
+            <ion-toggle [(ngModel)]="user"></ion-toggle>
+        </ion-item>
+
+        <button class="thf-sm-12 login" ion-button>Login</button>
+        <button class="thf-sm-12 register" ion-button [navPush]="registerPage">Cadastrar-se</button>
+        
+        <ion-row no-lines justify-content-center align-items-center style="height: 100%">
+            <a>Esqueceu a senha?</a>
+        </ion-row>
+    </ion-grid>  
+</ion-content>
+
+<ion-footer no-border>
+    <ion-row justify-content-center align-items-center style="height: 100%">
+        <span class="">Comunica Fiscal ™</span>
+    </ion-row>
+    <ion-row justify-content-center align-items-center style="height: 100%">
+        <span class="">2019</span>
+    </ion-row>
+</ion-footer>
